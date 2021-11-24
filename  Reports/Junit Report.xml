@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="2.098">
+<testcase classname="Login" name="Validate Login with multiple users" time="0.735">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When User enters username as  Admin.........................................passed
+And User enters password as admin123........................................passed
+Then login successfull......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Validate Login with multiple users 2" time="0.017">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When User enters username as  Tom...........................................passed
+And User enters password as tom123..........................................passed
+Then login successfull......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-23T10:52:20.704Z",
+        "line": 26,
+        "name": "Validate Login with multiple users",
+        "description": "",
+        "id": "login;validate-login-with-multiple-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdefinition.LoginPageStepDefinition.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters username as  Admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinition.LoginPageStepDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters password as admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.LoginPageStepDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "login successfull",
+            "match": {
+              "location": "stepdefinition.LoginPageStepDefinition.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-23T10:52:21.528Z",
+        "line": 27,
+        "name": "Validate Login with multiple users",
+        "description": "",
+        "id": "login;validate-login-with-multiple-users;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdefinition.LoginPageStepDefinition.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters username as  Tom",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinition.LoginPageStepDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters password as tom123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom123",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.LoginPageStepDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "login successfull",
+            "match": {
+              "location": "stepdefinition.LoginPageStepDefinition.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginPage.feature",
+    "tags": []
+  }
+]
